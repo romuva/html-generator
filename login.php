@@ -39,7 +39,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <div class="remember-me">
-                                    <label><input name="remember" value="yes" type="checkbox">Remember Me</label>
+                                    <label><input name="remember" value="yes" type="checkbox"> Remember Me</label>
                                 </div>
                             </div>
                             <div class="form-group col-md-6 button">
