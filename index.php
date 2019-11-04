@@ -6,10 +6,10 @@
 
 <div class="jumbotron">
 	<div class="container text-center">
-		<h1>User authenication system</h1>
 		<?php 
             if(!isset($_SESSION['username'])):
         ?>
+        <h1>Please login to see product list</h1>
         <div id="loreg">
             <ul class="list-inline">
                 <li>
@@ -21,6 +21,8 @@
             </ul>
         </div>
         <?php else: ?>
+        <h1>Product list</h1>
+        <p>To be done...</p>
         <div id="usr">
             <p>
                 You're logged in as <?php if(isset($_SESSION['username'])) echo $_SESSION['username']; ?> <a href="logout.php">Logout</a>

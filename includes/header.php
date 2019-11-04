@@ -24,7 +24,7 @@
       <!-- link google font -->
       <link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
       
-      <title><?php if(isset($page_title)) echo $page_title; ?> | User authenication system</title>
+      <title><?php if(isset($page_title)) echo $page_title; if(!empty($_SERVER['HTTP_HOST'])) echo " | ".$_SERVER['HTTP_HOST']; ?></title>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -36,7 +36,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.php">User Authentication</a>
+				<a class="navbar-brand" href="index.php"><?php if(!empty($_SERVER['HTTP_HOST'])) echo $_SERVER['HTTP_HOST']; ?></a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left"><i class="hide"><?php echo guard(); ?></i>

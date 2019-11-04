@@ -7,7 +7,10 @@
         <section id="login-main">
             <div class="container">
                 <div class="row">
-                    <h1>User Authentication system.</h1>
+                    <?php if(isset($_SESSION['username']) || isCookieValid($db)): ?>
+
+                    <?php else: ?>
+                    <h1>Please login to access</h1>
                     <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
                         <h3>Login</h3>
                         <br>
@@ -50,6 +53,7 @@
                             <a href="forgot_pwd.php">Lost your password?</a>
                         </div>
                     </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </section>
