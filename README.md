@@ -21,8 +21,9 @@ If you want to integrate this system into any of your projects please feel free 
 
 
 Installation instructions:
-1. Just drop files into your hosting who supports PHP/MYSQL.
-2. Edit *.php files in /config/ folder.
+1. Just drop files into your hosting which supports PHP/MYSQL.
+2. Import htmlgenerator.sql into your MYSQL database thru phpmyadmin or other system.
+3. Edit *.php files in /config/ folder with your preferable settings.
 
 
 CREDITS

@@ -39,12 +39,24 @@
 				<a class="navbar-brand" href="index.php">User Authentication</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav"><i class="hide"><?php echo guard(); ?></i>
+				<ul class="nav navbar-nav navbar-left"><i class="hide"><?php echo guard(); ?></i>
 					<li>
 						<a href="index.php">
 							Home
 						</a>
 					</li>
+		    		<li>
+		    			<a href="#">
+		    				About
+		    			</a>
+		    		</li>
+		    		<li>
+		    			<a href="#">
+		    				Contact 
+		    			</a>
+		    		</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right"><i class="hide"><?php echo guard(); ?></i>
 					<?php 
 			            if(isset($_SESSION['username']) || isCookieValid($db)):
 			        ?>
@@ -60,16 +72,6 @@
 			    		</li>
 			    	<?php else: ?>
 			    		<li>
-			    			<a href="#">
-			    				About
-			    			</a>
-			    		</li>
-			    		<li>
-			    			<a href="#">
-			    				Contact 
-			    			</a>
-			    		</li>
-			    		<li>
 			    			<a href="login.php">
 			    				Login
 			    			</a>
@@ -79,7 +81,7 @@
 			    				Register
 			    			</a>
 			    		</li>
-			    	<?php endif; ?>					
+			    	<?php endif; ?>
 				</ul>
 			</div>
 		</div>
