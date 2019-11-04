@@ -50,7 +50,7 @@
                             </div>
                         </form>
                         <div class="col-md-12 text-center lost-pwd">
-                            <a href="forgot_pwd.php">Lost your password?</a>
+                            <a href="lost-password.php">Lost your password?</a>
                         </div>
                     </div>
                     <?php endif; ?>
@@ -58,3 +58,5 @@
             </div>
         </section>
 <?php include_once'includes/footer.php'; ?>
+    </body>
+</html>

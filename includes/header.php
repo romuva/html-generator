@@ -16,9 +16,12 @@
       <link rel="stylesheet" href="assets/css/bootstrap.css">
       <link rel="stylesheet" href="assets/css/font-awesome.css">
       <link rel="stylesheet" href="assets/css/sweetalert.css">
+      <link rel="stylesheet" href="assets/css/footable.bootstrap.min.css">
       <link rel="stylesheet" href="assets/css/custom.css">
 
       <script src="assets/js/sweetalert.min.js"></script>
+
+      <script src="https://fooplugins.github.io/FooTable/docs/js/demo-rows.js"></script>
            
       
       <!-- link google font -->
@@ -46,12 +49,12 @@
 						</a>
 					</li>
 		    		<li>
-		    			<a href="#">
+		    			<a href="about.php">
 		    				About
 		    			</a>
 		    		</li>
 		    		<li>
-		    			<a href="#">
+		    			<a href="contact.php">
 		    				Contact 
 		    			</a>
 		    		</li>

@@ -19,6 +19,11 @@ Developers used PHP PDO, JS, HTML, CSS to create this system. The basic function
 
 If you want to integrate this system into any of your projects please feel free to do so. If you want to make any changes to the project files then please feel free to do so.
 
+Requirements:
+<ul>
+<li>PHP</li>
+<li>Database (MYSQL suggested)</li> 
+</ul>
 
 Installation instructions:
 1. Just drop files into your hosting which supports PHP/MYSQL.
@@ -30,3 +35,6 @@ CREDITS
 
 Authentication script:
 MattN1014
+
+jQuery plugin to make HTML tables responsive:
+fooplugins/FooTable (https://fooplugins.com/plugins/footable-jquery/)

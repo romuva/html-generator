@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-                        <h1>User Authentication system.</h1>
+                        <h1>Please register in order to login</h1>
                         <h3>Register</h3>
                         <br>
                             
@@ -51,3 +51,5 @@
             </div>
         </section>
 <?php include_once'includes/footer.php'; ?>
+    </body>
+</html>

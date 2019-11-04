@@ -154,7 +154,7 @@ function isCookieValid($db){
         else {
            //Cookie ID is invalid destroy session and log out the user
            $isValid = false;
-           $this->signout(); 
+           // $this->signout();
         }
     }
     return false;
