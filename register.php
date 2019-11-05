@@ -6,6 +6,7 @@
         <section id="register-main">
             <div class="container">
                 <div class="row">
+                    <?php if(REGISTRATION_ACTIVE): ?>
                     <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
                         <h1>Please register in order to login</h1>
                         <h3>Register</h3>
@@ -47,6 +48,16 @@
                             </div>
                         </form>
                     </div>
+                    <?php else: ?>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                    <h1>Please register in order to login</h1>
+                    <h3>Registration is DISABLED, please contact website administrator</h3>
+                    <br>
+                        
+                    <?php if(isset($result)) echo $result; ?>
+                    <?php if(!empty($form_errors)) echo show_errors($form_errors); ?>
+                    </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </section>

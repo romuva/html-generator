@@ -16,9 +16,11 @@
                 <li>
                     <a class="btn btn-primary btn-lg" href="login.php">Login</a>
                 </li>
+                <?php if(REGISTRATION_ACTIVE): ?>
                 <li>
                     <a class="btn btn-primary btn-lg" href="register.php">Register</a>
                 </li>
+                <?php endif; ?>
             </ul>
         </div>
         <?php else: ?>

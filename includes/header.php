@@ -80,9 +80,11 @@
 			    			</a>
 			    		</li>
 			    		<li>
+			    			<?php if(REGISTRATION_ACTIVE): ?>
 			    			<a href="register.php">
 			    				Register
 			    			</a>
+			    			<?php endif; ?>
 			    		</li>
 			    	<?php endif; ?>
 				</ul>

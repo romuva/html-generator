@@ -8,12 +8,6 @@ After generating one you can easily import .html file into your ebay (you don't 
 This system could be used for a number of different applications and easily integrated into any projects you may be thinking of creating.
 
 
-Login/register page:
-![Login/register page](https://raw.githubusercontent.com/romuva/html-generator/master/assets/img/html-generator-pic-1.png)
-
-Product list page:
-![Product list page](https://raw.githubusercontent.com/romuva/html-generator/master/assets/img/html-generator-pic-2.png)
-
 Developers used PHP PDO, JS, HTML, CSS to create this system. The basic functions are to:
 <ul>
 <li>Create a user (Register)</li>
@@ -21,7 +15,6 @@ Developers used PHP PDO, JS, HTML, CSS to create this system. The basic function
 <li>Reset a users password</li> 
 <li>Show a basic profile of the logged in user.</li>  
 <li>Enabled basic profile editing (username & email address).</li>
-<li>Product list (insert/update/delete products from database when you are logged in).</li>
 </ul>
 
 If you want to integrate this system into any of your projects please feel free to do so. If you want to make any changes to the project files then please feel free to do so.

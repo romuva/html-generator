@@ -2,7 +2,10 @@
 
     define("DSN", "mysql:host=localhost;dbname=unabas_htmlgenerator;charset=utf8mb4");
     define("USERNAME", "htmlgenerator");
-    define("PWD", "svhqR3WJmS2U37nr");
+    define("PWD", "yourdatabasepassword");
+
+    define("REGISTRATION_ACTIVE", "1");
+
     mb_internal_encoding('UTF-8');
     mb_http_output('UTF-8');
 
