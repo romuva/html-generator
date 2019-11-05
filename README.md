@@ -7,9 +7,12 @@ After generating one you can easily import .html file into your ebay (you don't 
 
 This system could be used for a number of different applications and easily integrated into any projects you may be thinking of creating.
 
-![Login or Register page](https://raw.githubusercontent.com/romuva/html-generator/master/assets/img/html-generator-pic-1.png)
 
-![Login or Register page](https://raw.githubusercontent.com/romuva/html-generator/master/assets/img/html-generator-pic-2.png)
+Login/register page:
+![Login/register page](https://raw.githubusercontent.com/romuva/html-generator/master/assets/img/html-generator-pic-1.png)
+
+Product list page:
+![Product list page](https://raw.githubusercontent.com/romuva/html-generator/master/assets/img/html-generator-pic-2.png)
 
 Developers used PHP PDO, JS, HTML, CSS to create this system. The basic functions are to:
 <ul>
